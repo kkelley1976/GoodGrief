@@ -9,7 +9,9 @@ import android.widget.TextView;
 
 /**
  * Created by kkelley on 4/6/2015.
+wtf
  */
+
 public class SensingTextView extends TextView implements SensorEventListener {
     public SensingTextView(Context context) {
         super(context);
