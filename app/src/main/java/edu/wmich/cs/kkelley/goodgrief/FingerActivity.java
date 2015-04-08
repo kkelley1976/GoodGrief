@@ -1,4 +1,4 @@
-package edu.wmich.cs.kkelley.hellotest;
+package edu.wmich.cs.kkelley.goodgrief;
 
 import android.app.Activity;
 import android.content.Context;
@@ -28,6 +28,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import edu.wmich.cs.kkelley.goodgrief.SensingTextView;
 
 public class FingerActivity extends Activity {
 
