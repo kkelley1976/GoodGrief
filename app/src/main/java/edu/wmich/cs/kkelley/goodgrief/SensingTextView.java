@@ -31,6 +31,9 @@ So you should read from Sensor.TYPE_ACCELEROMETER as well as from Sensor.TYPE_MA
     float[] mGravity;
     float[] mGeomagnetic;
     float[] mGeomagnetic_W = new float[3];
+    float[] mSumGeomagnetic;
+    float[] mSumGeomagnetic_W = new float[3];
+
 
     public void onSensorChanged(SensorEvent event) {
         float orientation[] = new float[3];

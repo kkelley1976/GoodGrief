@@ -47,8 +47,16 @@ public class FingerActivity extends Activity {
                 SensorManager.SENSOR_DELAY_UI);
 
         setContentView(tv);
+
+
+
+
     }
+
+  
+
 }
+
 /*
 //Comment
 public class HelloTest extends ActionBarActivity {
