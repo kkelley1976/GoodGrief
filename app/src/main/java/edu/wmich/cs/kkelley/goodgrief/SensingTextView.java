@@ -37,7 +37,7 @@ So you should read from Sensor.TYPE_ACCELEROMETER as well as from Sensor.TYPE_MA
         float R[] = new float[9];
         float I[] = new float[9];
 
-        if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER)
+        if (event.sensor.getType() == Sensor.TYPE_GRAVITY)
             mGravity = event.values.clone();
         if (event.sensor.getType() == Sensor.TYPE_MAGNETIC_FIELD)
             mGeomagnetic = event.values.clone();

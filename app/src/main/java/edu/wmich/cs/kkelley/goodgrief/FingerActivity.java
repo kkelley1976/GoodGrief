@@ -43,7 +43,7 @@ public class FingerActivity extends Activity {
                 sm.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD),
                 SensorManager.SENSOR_DELAY_UI);
         sm.registerListener(tv,
-                sm.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),
+                sm.getDefaultSensor(Sensor.TYPE_GRAVITY),
                 SensorManager.SENSOR_DELAY_UI);
 
         setContentView(tv);
