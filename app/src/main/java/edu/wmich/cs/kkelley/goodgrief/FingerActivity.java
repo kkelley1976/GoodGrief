@@ -50,6 +50,7 @@ public class FingerActivity extends Activity {
     }
 }
 /*
+//Comment
 public class HelloTest extends ActionBarActivity {
 
     @Override
